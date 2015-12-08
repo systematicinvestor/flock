@@ -1,0 +1,7 @@
+useDynLib(flock)
+
+importFrom(Rcpp, evalCpp)
+
+export("lock")
+export("unlock")
+export("is.locked")
